@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: finalproject.repository.jdbc.CriminalCaseJDBCRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.508 s <<< FAILURE! - in finalproject.repository.jdbc.CriminalCaseJDBCRepositoryTest
+findAll  Time elapsed: 0.498 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at finalproject.repository.jdbc.CriminalCaseJDBCRepositoryTest.findAll(CriminalCaseJDBCRepositoryTest.java:19)
+Caused by: java.lang.IllegalArgumentException: Cannot find property file: datasource.properties
+	at finalproject.repository.jdbc.CriminalCaseJDBCRepositoryTest.findAll(CriminalCaseJDBCRepositoryTest.java:19)
+
