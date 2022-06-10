@@ -10,9 +10,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseUtility {
-    public final static String URL = "jdbc:mysql://localhost:3306/evidence_db";
-    public final static String USER_NAME = "root";
-    public final static String PASSWORD = "1234$";
+//    public final static String URL = "jdbc:mysql://localhost:3306/eviedence_db";
+//    public final static String USER_NAME = "root";
+//    public final static String PASSWORD = "1234$";
 
 //    public static ComboPooledDataSource getDataSource()
 //            throws PropertyVetoException
@@ -47,7 +47,7 @@ public class DatabaseUtility {
     }
 
 
-    private static HikariConfig config = new HikariConfig("datasource.properties");
+    private static HikariConfig config = new HikariConfig("/datasource.properties");
 //    private static HikariConfig config = new HikariConfig();
     private static HikariDataSource ds;
 

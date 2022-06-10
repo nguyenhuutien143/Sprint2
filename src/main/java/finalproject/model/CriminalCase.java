@@ -98,19 +98,19 @@ public class CriminalCase extends AbstractEntity{
 
     }
 
-//    public CriminalCase(long id, int version, LocalDateTime createdAt, LocalDateTime modifiedAt, String number,
-//                        CaseType type, String shortDescription,String detailedDescription, CaseStatus status, String notes, Set<Evidence> evidenceSet, Detective leadInvestigator, Set<Detective> assigned) {
-//        super(id, version, createdAt, modifiedAt);
-//        this.number = number;
-//        this.type = type;
-//        this.shortDescription = shortDescription;
-//        this.detailedDescription=detailedDescription;
-//        this.status = status;
-//        this.notes = notes;
-//        this.evidenceSet = evidenceSet;
-//        this.leadInvestigator = leadInvestigator;
-//        this.assigned = assigned;
-//    }
+    public CriminalCase(long id, int version, LocalDateTime createdAt, LocalDateTime modifiedAt, String number,
+                        CaseType type, String shortDescription,String detailedDescription, CaseStatus status, String notes, Set<Evidence> evidenceSet, Detective leadInvestigator, Set<Detective> assigned) {
+        super(id, version, createdAt, modifiedAt);
+        this.number = number;
+        this.type = type;
+        this.shortDescription = shortDescription;
+        this.detailedDescription=detailedDescription;
+        this.status = status;
+        this.notes = notes;
+        this.evidenceSet = evidenceSet;
+        this.leadInvestigator = leadInvestigator;
+        this.assigned = assigned;
+    }
 
     @Override
     public String toString() {

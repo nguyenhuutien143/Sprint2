@@ -69,7 +69,8 @@ public class Detective extends AbstractEntity  {
     public void setTrackEntries(Set<TrackEntry> trackEntries) {
         this.trackEntries = trackEntries;
     }
-
+    public Detective(){
+    }
     public Detective(long id, int version, LocalDateTime createdAt, LocalDateTime modifiedAt, Person person,
                      String badgeNumber, Rank rank, Boolean armed, EmploymentStatus status,
                      Set<CriminalCase> criminalCases, Set<TrackEntry> trackEntries) {

@@ -67,6 +67,7 @@ public class Evidence extends AbstractEntity{
     public void setTrackEntries(Set<TrackEntry> trackEntries) {
         this.trackEntries = trackEntries;
     }
+    public Evidence(){}
 
     public Evidence(long id, int version, LocalDateTime createdAt, LocalDateTime modifiedAt, CriminalCase criminalCase,
                     Storage storage, String number, String itemName, String notes, Boolean archived, Set<TrackEntry> trackEntries) {
