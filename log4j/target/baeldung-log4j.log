@@ -1,70 +1,66 @@
-2022-06-10 20:13:24 INFO  Xoa data ton tai tu trc neu co
-2022-06-10 20:13:24 DEBUG HikariPool-1 - configuration:
-2022-06-10 20:13:24 DEBUG allowPoolSuspension.............false
-2022-06-10 20:13:24 DEBUG autoCommit......................true
-2022-06-10 20:13:24 DEBUG catalog.........................none
-2022-06-10 20:13:24 DEBUG connectionInitSql...............none
-2022-06-10 20:13:24 DEBUG connectionTestQuery.............none
-2022-06-10 20:13:24 DEBUG connectionTimeout...............30000
-2022-06-10 20:13:24 DEBUG dataSource......................none
-2022-06-10 20:13:24 DEBUG dataSourceClassName.............none
-2022-06-10 20:13:24 DEBUG dataSourceJNDI..................none
-2022-06-10 20:13:24 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, user=root, prepStmtCacheSize=250}
-2022-06-10 20:13:24 DEBUG driverClassName.................none
-2022-06-10 20:13:24 DEBUG exceptionOverrideClassName......none
-2022-06-10 20:13:24 DEBUG healthCheckProperties...........{}
-2022-06-10 20:13:24 DEBUG healthCheckRegistry.............none
-2022-06-10 20:13:24 DEBUG idleTimeout.....................600000
-2022-06-10 20:13:24 DEBUG initializationFailTimeout.......1
-2022-06-10 20:13:24 DEBUG isolateInternalQueries..........false
-2022-06-10 20:13:24 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/eviedence_db
-2022-06-10 20:13:24 DEBUG leakDetectionThreshold..........0
-2022-06-10 20:13:24 DEBUG maxLifetime.....................1800000
-2022-06-10 20:13:24 DEBUG maximumPoolSize.................10
-2022-06-10 20:13:24 DEBUG metricRegistry..................none
-2022-06-10 20:13:24 DEBUG metricsTrackerFactory...........none
-2022-06-10 20:13:24 DEBUG minimumIdle.....................10
-2022-06-10 20:13:24 DEBUG password........................<masked>
-2022-06-10 20:13:24 DEBUG poolName........................"HikariPool-1"
-2022-06-10 20:13:24 DEBUG readOnly........................false
-2022-06-10 20:13:24 DEBUG registerMbeans..................false
-2022-06-10 20:13:24 DEBUG scheduledExecutor...............none
-2022-06-10 20:13:24 DEBUG schema..........................none
-2022-06-10 20:13:24 DEBUG threadFactory...................internal
-2022-06-10 20:13:24 DEBUG transactionIsolation............default
-2022-06-10 20:13:24 DEBUG username........................none
-2022-06-10 20:13:24 DEBUG validationTimeout...............5000
-2022-06-10 20:13:24 INFO  HikariPool-1 - Starting...
-2022-06-10 20:13:24 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/eviedence_db
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40844aab
-2022-06-10 20:13:25 INFO  HikariPool-1 - Start completed.
-2022-06-10 20:13:25 INFO  init data before each test
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37d5e87
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@424054bc
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@734831a1
-2022-06-10 20:13:25 INFO  clearDataEachTest
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@226fabf3
-2022-06-10 20:13:25 INFO  init data before each test
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26217535
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 INFO  clearDataEachTest
-2022-06-10 20:13:25 INFO  init data before each test
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b41c7f8
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 INFO  clearDataEachTest
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cee0a94
-2022-06-10 20:13:25 INFO  init data before each test
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c50cb90
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
-2022-06-10 20:13:25 INFO  clearDataEachTest
-2022-06-10 20:13:25 INFO  clearTest
-2022-06-10 20:13:25 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bfc3665
-2022-06-10 20:13:25 DEBUG HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2022-06-15 10:42:06 INFO  Xoa data ton tai tu trc neu co
+2022-06-15 10:42:06 DEBUG HikariPool-1 - configuration:
+2022-06-15 10:42:06 DEBUG allowPoolSuspension.............false
+2022-06-15 10:42:06 DEBUG autoCommit......................true
+2022-06-15 10:42:06 DEBUG catalog.........................none
+2022-06-15 10:42:06 DEBUG connectionInitSql...............none
+2022-06-15 10:42:06 DEBUG connectionTestQuery.............none
+2022-06-15 10:42:06 DEBUG connectionTimeout...............30000
+2022-06-15 10:42:06 DEBUG dataSource......................none
+2022-06-15 10:42:06 DEBUG dataSourceClassName.............none
+2022-06-15 10:42:06 DEBUG dataSourceJNDI..................none
+2022-06-15 10:42:06 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, user=root, prepStmtCacheSize=250}
+2022-06-15 10:42:06 DEBUG driverClassName.................none
+2022-06-15 10:42:06 DEBUG exceptionOverrideClassName......none
+2022-06-15 10:42:06 DEBUG healthCheckProperties...........{}
+2022-06-15 10:42:06 DEBUG healthCheckRegistry.............none
+2022-06-15 10:42:06 DEBUG idleTimeout.....................600000
+2022-06-15 10:42:06 DEBUG initializationFailTimeout.......1
+2022-06-15 10:42:06 DEBUG isolateInternalQueries..........false
+2022-06-15 10:42:06 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/eviedence_db
+2022-06-15 10:42:06 DEBUG leakDetectionThreshold..........0
+2022-06-15 10:42:06 DEBUG maxLifetime.....................1800000
+2022-06-15 10:42:06 DEBUG maximumPoolSize.................10
+2022-06-15 10:42:06 DEBUG metricRegistry..................none
+2022-06-15 10:42:06 DEBUG metricsTrackerFactory...........none
+2022-06-15 10:42:06 DEBUG minimumIdle.....................10
+2022-06-15 10:42:06 DEBUG password........................<masked>
+2022-06-15 10:42:06 DEBUG poolName........................"HikariPool-1"
+2022-06-15 10:42:06 DEBUG readOnly........................false
+2022-06-15 10:42:06 DEBUG registerMbeans..................false
+2022-06-15 10:42:06 DEBUG scheduledExecutor...............none
+2022-06-15 10:42:06 DEBUG schema..........................none
+2022-06-15 10:42:06 DEBUG threadFactory...................internal
+2022-06-15 10:42:06 DEBUG transactionIsolation............default
+2022-06-15 10:42:06 DEBUG username........................none
+2022-06-15 10:42:06 DEBUG validationTimeout...............5000
+2022-06-15 10:42:06 INFO  HikariPool-1 - Starting...
+2022-06-15 10:42:06 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/eviedence_db
+2022-06-15 10:42:06 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10ded6a9
+2022-06-15 10:42:06 INFO  HikariPool-1 - Start completed.
+2022-06-15 10:42:06 INFO  init data before each test
+2022-06-15 10:42:06 DEBUG HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-06-15 10:42:06 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:06 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:06 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:06 INFO  clearDataEachTest
+2022-06-15 10:42:06 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d9780e0
+2022-06-15 10:42:06 INFO  init data before each test
+2022-06-15 10:42:06 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2caa8adb
+2022-06-15 10:42:06 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:06 INFO  clearDataEachTest
+2022-06-15 10:42:06 INFO  init data before each test
+2022-06-15 10:42:07 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d4ce3e7
+2022-06-15 10:42:07 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:07 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:07 INFO  clearDataEachTest
+2022-06-15 10:42:07 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c857594
+2022-06-15 10:42:07 INFO  init data before each test
+2022-06-15 10:42:07 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48cb4db8
+2022-06-15 10:42:07 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:07 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:07 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:07 DEBUG CriminalCase{number='1', type=null, shortDescription='null', status=null, notes='null', evidenceSet=null, leadInvestigator=null, assigned=null}
+2022-06-15 10:42:07 INFO  clearDataEachTest
+2022-06-15 10:42:07 INFO  clearTest
+2022-06-15 10:42:07 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7efac164
